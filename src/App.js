@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Student from './Student';
 import SuperButton from './SuperButton';
+import Forms from './Forms';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <SuperButton atext="Click Me!" alertText="Hey, stop clicking here already" />
 
         <h2>Exercise 3</h2>
+        <Forms />
 
       </header>
     </div>
