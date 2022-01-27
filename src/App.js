@@ -3,6 +3,7 @@ import './App.css';
 import Student from './Student';
 import SuperButton from './SuperButton';
 import Forms from './Forms';
+import FunctionalComponents from './FunctionalComponents';
 
 function App() {
   return (
@@ -16,7 +17,9 @@ function App() {
 
         <h2>Exercise 3</h2>
         <Forms />
-
+        
+        <h2>Class vs Functional Components</h2>
+        <FunctionalComponents />
       </header>
     </div>
   );
